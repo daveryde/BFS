@@ -44,17 +44,11 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <!-- Navbar Custom CSS -->
           <div class="navbar-nav navbar-custom">
-            <a class="nav-item nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link disabled" href="#">Characters</a>
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="characters.html">Characters</a>
             <a class="nav-item nav-link disabled" href="#">About</a>
-            <a
-              class="nav-item nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Contact</a
+            <a class="nav-item nav-link active" href="#"
+              >Contact <span class="sr-only">(current)</span></a
             >
           </div>
         </div>
@@ -63,18 +57,25 @@
     <main class="container">
       <section>
         <form class="form">
+          <h1>Contact Us</h1>
+          <p class="py-2">
+            "Our team of engineers have worked diligently to make this fan
+            service a reality. Are you interested in collaborating with our
+            engineers? Tell us how you want to make a difference!"
+          </p>
           <label for="name">Name</label>
-          <input type="text" class="form-item" value="name" />
+          <input type="text" class="form-item" placeholder="Full Name" />
           <label for="resume">Resume</label>
           <input type="file" class="form-item" value="resume" />
           <textarea
             name="description"
             id="how"
-            cols="30"
-            rows="10"
-            value="Tell Us How"
+            rows="5"
+            placeholder="Tell Us How"
           ></textarea>
-          <button type="submit" class="btn btn-primary btn-md">Submit</button>
+          <button type="submit" class="btn btn-primary btn-md btn-block">
+            Submit
+          </button>
         </form>
       </section>
     </main>
