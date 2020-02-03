@@ -1,0 +1,17 @@
+:root {
+  --main-font: 'Macho', Arial, Helvetica, sans-serif;
+  --secondary-font: 'Circe Slab C', Arial, Helvetica, sans-serif;
+  --font-size: 18px;
+  --font-size-md: 22px;
+  --font-size-lg: 30px;
+  --font-weight: 500;
+  --font-weight-bold: bold;
+  --font-style: regular;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-bold);
+  overflow-x: hidden;
+}

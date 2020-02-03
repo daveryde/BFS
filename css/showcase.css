@@ -1,0 +1,52 @@
+.showcase {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.showcase-img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.showcase-text {
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+/* Tablet Territory */
+@media only screen and (min-width: 768px) {
+  .showcase {
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .showcase-img {
+    width: 35%;
+    margin: 1rem;
+  }
+
+  .showcase-text {
+    width: 50%;
+  }
+}
+
+/* Desktop Territory */
+@media only screen and (min-width: 1366px) {
+  .showcase {
+    height: auto;
+  }
+
+  .showcase-text {
+    padding: 3rem;
+  }
+}
