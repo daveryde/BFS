@@ -1,0 +1,18 @@
+.form {
+  width: 50vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  background: red;
+}
+
+.form label {
+  width: 100%;
+}
+
+.form-item {
+  width: 50%;
+}
