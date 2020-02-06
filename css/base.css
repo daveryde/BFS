@@ -7,13 +7,15 @@
   --font-weight: 500;
   --font-weight-bold: bold;
   --font-style: regular;
-  --red: #ED2128;
-  --blue: #2AA9E0;
+  --red: #ed2128;
+  --blue: #2aa9e0;
+  --light-blue: #dbf3fc;
 }
 
 body {
   font-family: var(--main-font);
   font-size: var(--font-size);
   font-weight: var(--font-weight-bold);
+  color: var(--light-blue);
   overflow-x: hidden;
 }
