@@ -1,12 +1,11 @@
-.form {
-  width: 50vw;
+form {
+  width: 100%;
+  padding: 2rem;
+  background: var(--light-dark);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding: 2rem;
-  background: var(--red);
 }
 
 label,
@@ -18,4 +17,8 @@ textarea {
 input,
 textarea {
   margin: 1rem 0;
+}
+
+/* Tablet Size */
+@media only screen and (min-width: 768px) {
 }

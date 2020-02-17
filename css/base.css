@@ -1,3 +1,7 @@
+/* Adobe Personal Brand Fonts */
+@import url('https://use.typekit.net/pjn3soh.css');
+
+/* Root Variables */
 :root {
   --main-font: 'Macho', Arial, Helvetica, sans-serif;
   --secondary-font: 'Circe Slab C', Arial, Helvetica, sans-serif;
@@ -7,6 +11,8 @@
   --font-weight: 500;
   --font-weight-bold: bold;
   --font-style: regular;
+  --dark: #343a40;
+  --light-dark: #3f474e;
   --red: #ed2128;
   --blue: #2aa9e0;
   --light-blue: #dbf3fc;
@@ -17,5 +23,27 @@ body {
   font-size: var(--font-size);
   font-weight: var(--font-weight-bold);
   color: var(--light-blue);
+  background: var(--dark);
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 100vw;
   overflow-x: hidden;
+}
+
+/* Override Bootstrap container padding */
+.container {
+  padding: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+ul {
+  list-style: none;
 }
