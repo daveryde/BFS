@@ -9,6 +9,10 @@
   margin-bottom: 1rem;
 }
 
+.showcase img {
+  width: 75%;
+}
+
 .showcase-img {
   width: 100%;
   margin: 1rem 0;
@@ -45,6 +49,10 @@
 @media only screen and (min-width: 1366px) {
   .showcase {
     height: auto;
+  }
+
+  .showcase img {
+    width: 25%;
   }
 
   .showcase-text {
