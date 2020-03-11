@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <!-- Name: David Cordova -->
     <meta charset="UTF-8" />
     <meta name="description" content="Bleach Fan Site" />
     <meta name="keywords" content="Bleach, Anime, Fan, Bleach Anime Fan, Bleach Fan, Bleach Fan Site" />
@@ -17,7 +18,8 @@
     <!-- Import Custom Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <!-- Import Custom Styles -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
@@ -34,29 +36,31 @@
     </header>
     <main class="container">
       <!-- Contact Us Form -->
-      <section>
-        <form>
-          <h1 class="display-4">Contact Us</h1>
-          <p class="py-2">
-            "Our team of engineers have worked diligently to make this fan
-            service a reality. Are you interested in collaborating with our
-            engineers? Tell us how you want to make a difference!"
-          </p>
-          <label for="name">Name</label>
-          <input type="text" class="form-item" id="name" placeholder="Full Name" />
-          <label for="resume">Resume</label>
-          <input type="file" class="form-item" id="resume" />
-          <textarea name="description" id="how" rows="5" placeholder="Tell Us How"></textarea>
-          <button type="submit" class="btn btn-primary btn-md btn-block">
-            Submit
-          </button>
-        </form>
+      <section class="row form">
+        <div class="col-sm-12 col-md-8">
+          <form class="mx-auto">
+            <h1 class="display-4">Contact</h1>
+            <p class="py-2">
+              "Our team of engineers have worked diligently to make this fan
+              service a reality. Are you interested in collaborating with our
+              engineers? Tell us how you want to make a difference!"
+            </p>
+            <label for="name">Name</label>
+            <input type="text" class="form-item" id="name" placeholder="Full Name" />
+            <label for="resume">Resume</label>
+            <input type="file" class="form-item" id="resume" />
+            <textarea name="description" id="how" rows="5" placeholder="Tell Us How"></textarea>
+            <button type="submit" class="btn btn-primary btn-md btn-block">
+              Submit
+            </button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="container">
       <p>
-        <span>Copyright 2020 @</span> &nbsp;
-        <a href="mailto:davidhcordova411@gmail.com"> David Cordova. &nbsp;</a>
+        Copyright 2020 @&nbsp;
+        <a href="mailto:davidhcordova411@gmail.com"><u>David Cordova</u>.&nbsp;</a>
       </p>
       <br>
       <p>Site for educational purposes only.</p>
